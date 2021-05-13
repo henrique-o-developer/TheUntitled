@@ -1,0 +1,107 @@
+{
+  "all": {
+    "henrique-password": {
+      "posX": 674,
+      "posY": 159,
+      "pX": 0,
+      "pY": 0,
+      "more": 15,
+      "cite": 2,
+      "cam": true,
+      "equiped": {},
+      "itens": [
+        {
+          "name": "espada",
+          "src": "img/espada.png",
+          "type": "attack",
+          "strength": 10,
+          "locale": "punho"
+        },
+        {
+          "name": "couraça",
+          "src": "img/couraça.png",
+          "type": "defence",
+          "strength": 10,
+          "locale": "corpo"
+        }
+      ],
+      "srcX": 0,
+      "srcY": 64,
+      "sprites": [
+        {
+          "img": "img/casa.png",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 600,
+          "add": 15,
+          "view": true,
+          "player": true
+        },
+        {
+          "img": "img/casa_escura.png",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 600,
+          "add": 15,
+          "view": false,
+          "player": true
+        },
+        {
+          "img": "img/scene.png",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 600,
+          "add": 0,
+          "view": false,
+          "player": true
+        },
+        {
+          "img": "img/cidade noite.png",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 600,
+          "add": 0,
+          "view": false,
+          "player": true
+        },
+        {
+          "img": "img/bau.png",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 600,
+          "add": 0,
+          "view": false,
+          "player": false
+        },
+        {
+          "img": "img/invent.png",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 600,
+          "add": 0,
+          "view": false,
+          "player": false
+        }
+      ],
+      "inv": [],
+      "saved_points": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}

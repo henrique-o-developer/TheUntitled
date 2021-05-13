@@ -1,0 +1,23 @@
+{
+  "name": "TheUntitled",
+  "version": "0.1.6",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "clear; electron .",
+    "make": "clear; electron-packager ./ TheUntitled --out /home/henrique/Documentos/jogo_comp/0.1.0/ --platform=all --arch=all --overwrite"
+  },
+  "author": "henrique rosario",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "electron-is-dev": "^2.0.0",
+    "electron-log": "^4.3.5",
+    "electron-updater": "^4.3.9",
+    "megadb": "^3.4.0",
+    "update-electron-app": "^2.0.1"
+  }
+}
