@@ -4,7 +4,7 @@
   "description": "compiled TheUntitled",
   "main": "index.js",
   "scripts": {
-    "publish": "clear; git add *; git commit -m 'addCompiled'; git push origin master; clear"
+    "publish": "clear; git add *; git commit -m 'addCompiled'; git push origin master"
   },
   "repository": {
     "type": "git",
