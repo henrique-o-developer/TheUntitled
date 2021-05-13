@@ -1,0 +1,19 @@
+{
+  "name": "jogo_comp",
+  "version": "0.0.0",
+  "description": "compiled TheUntitled",
+  "main": "index.js",
+  "scripts": {
+    "publish": "clear; git add *; git commit -m 'addCompiled'; git push origin master; clear"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenisosi/TheUntitled.git"
+  },
+  "author": "henrique rosario",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fenisosi/TheUntitled/issues"
+  },
+  "homepage": "https://github.com/fenisosi/TheUntitled#readme"
+}

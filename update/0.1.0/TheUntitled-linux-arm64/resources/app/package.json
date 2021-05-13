@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "dev": "clear; electron .",
-    "make": "clear; electron-packager ./ TheUntitled --out /home/henrique/Documentos/jogo_comp/0.1.0/ --platform=all --arch=all --overwrite"
+    "make": "clear; electron-packager ./ TheUntitled --out /home/henrique/Documentos/jogo_comp/update/0.1.0/ --platform=all --arch=all --overwrite"
   },
   "author": "henrique rosario",
   "license": "ISC",
