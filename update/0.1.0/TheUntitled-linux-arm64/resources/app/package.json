@@ -1,0 +1,27 @@
+{
+  "name": "TheUntitled",
+  "version": "0.1.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "clear; electron .",
+    "make": "clear; cd ./src/; if [ '$mega_databases/' ]; then rm -rf mega_databases; fi; cd ../; electron-packager ./ TheUntitled --out /home/henrique/Documentos/jogo_comp/update/0.1.0/ --platform=all --arch=all --overwrite; clear"
+  },
+  "author": "henrique rosario",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-packager": "^15.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenisosi/TheUntitled.git"
+  },
+  "dependencies": {
+    "electron-is-dev": "^2.0.0",
+    "electron-log": "^4.3.5",
+    "electron-updater": "^4.3.9",
+    "megadb": "^3.4.0",
+    "update-electron-app": "^2.0.1"
+  }
+}
